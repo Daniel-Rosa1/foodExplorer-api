@@ -1,5 +1,5 @@
-require("express-async-errors")
 require("dotenv/config")
+require("express-async-errors")
 
 const cookieParser = require("cookie-parser")
 const AppError = require("./utils/AppError")
